@@ -1,0 +1,31 @@
+import {
+  Building,
+  Grid,
+  Briefcase,
+  Home,
+  Layout,
+  FileText,
+  Box,
+  Ruler,
+  Layers,
+  ClipboardCheck,
+  FileSignature,
+  List,
+  MapPin,
+} from "lucide-react";
+
+export const cardIcons = [
+  <Building />,
+  <Grid />,
+  <Briefcase />,
+  <Home />,
+  <Layout />,
+  <FileText />,
+  <Box />,
+  <Ruler />,
+  <Layers />,
+  <ClipboardCheck />,
+  <FileSignature />,
+  <List />,
+  <MapPin />,
+];

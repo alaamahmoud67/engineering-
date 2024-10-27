@@ -1,0 +1,57 @@
+.active,
+.show {
+  color: #f46530;
+  border: #000 solid 1px;
+  transition: 0.1s;
+  width: fit-content;
+  border: 1px solid #fff;
+}
+.active:hover,
+.show:hover {
+  color: #f46530;
+  border: #fff solid 1px;
+  transition: 0.3s;
+  width: fit-content;
+}
+.activeScroll , .activeScroll:hover{
+  border: #000 solid 1px;
+
+}
+
+.navlink {
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.navlink:hover {
+  color: #f46530;
+  transition: color 0.3s ease;
+}
+
+.logoimg {
+  width: 120px;
+}
+.logoimg img {
+  /* height: 120px; */
+  object-fit: cover;
+  object-position: center center;
+}
+.navbar-brand {
+  transition: all 0.3s ease;
+}
+
+/*---- x small --- */
+@media (max-width: 265px) {
+}
+/*---- small --- */
+@media (max-width: 640px) {
+}
+/* @media (max-width: 770px) {
+  .navright {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 8px 4px rgb(116, 148, 158);
+  }
+}
+@media (max-width: 760px) {
+} */
